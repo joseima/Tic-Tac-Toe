@@ -3,7 +3,7 @@ import {Square} from './Square'
 export const WinnerModal = ({winner, resetGame}) => {
     if (winner  === null) return null
     
-  const winnerText = winner === false ? 'Empate' : 'Ganó:'
+  const winnerText = winner === false ? 'Its a draw' : 'We have a winner!'
 
     return  (
            <section className='winner'>
